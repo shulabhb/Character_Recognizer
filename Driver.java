@@ -1,23 +1,4 @@
 import java.awt.event.*;
-
-/**
- * This is the driver for the unistroke handwriting recognition algorithm. The
- * driver sets up a drawing surface and collects points as the user moves draws
- * a stroke on the surface. The driver uses an instance of a Recognizer class to
- * store the user's input, process it, and to compare it to inputs in a base
- * set. The best match is then returned and printed.
- * 
- * Instructions: Run the function named "start" from BlueJ Draw a unistroke
- * representing one of the digits 0 through 9 on the canvas The recognized
- * character will be printed in an output window Continue drawing strokes until
- * you are done Press "e" to exit the program -- exiting in other ways
- * 
- * @author Dave Berque
- * @version August, 2004
- * 
- * Slightly modified by David E. Maharry 10/27/2004
- * 
- */
 public class Driver implements KeyListener, MouseListener, MouseMotionListener {
     private static final int STROKESIZE = 150;
     private Circle[] myCircle; // Used to trace out the user's stroke
