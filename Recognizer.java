@@ -1,16 +1,6 @@
 import java.awt.Point;
 import java.io.*;
 
-/**
- * This class performs unistroke handwriting recognition using an algorithm
- * known as "elastic matching."
- * 
- * @author Dave Berque
- * @version August, 2004 Slightly modified by David E. Maharry and Carl Singer
- *          10/27/2004
- * 
- */
-
 public class Recognizer {
     public static final int STROKESIZE = 150; // Max number of points in each
     // stroke
