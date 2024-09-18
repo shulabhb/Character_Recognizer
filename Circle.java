@@ -1,11 +1,5 @@
 import java.awt.geom.Ellipse2D;
 
-/**
- * A circle that can be manipulated and that draws itself on a canvas.
- * 
- * @author Michael Kolling and David J. Barnes (modified by: C. Singer)
- * @version 1.0 (15 July 2000)
- */
 
 public class Circle {
     private int diameter;
